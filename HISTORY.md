@@ -30,6 +30,12 @@
   - 문과
   - 2008.03 ~ 2011.02
 
+## 교육 수료
+
+- bit camp 자바기반 웹 전문 개발 과정
+- 2018.06 ~ 2018.12
+- Java, Oracle DB, Maria DB, HTML, CSS, Javascript, jQuery, SPRING, JSP, AJAX 등
+
 ## 병역
 
 - 공익 이병 소집 해제
