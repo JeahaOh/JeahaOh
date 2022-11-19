@@ -58,19 +58,72 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 - 이벤트/프로모션 기능 개선 (통합프로모션)
 - OS File System 및 static resources의 S3 전환
 - 하드코드 제거
-
+- 스펙
+  - AWS EC-2, AWS S3, AWS CodeDeploy, Jenkins, Java 1.7, Spring 3.1.1, myBatis, Oracle 11g, Tomcat 8, NginX, jQuery 1.1, 
 
 ### 한신정보기술
 
+- 2020.11 ~ 2021.08
 - 공공기관 홈페이지 유지보수 및 기능개선
   - 하남시청
   - 광명시청
   - 부천여성청소년재단
+- 대관/교육수강/체육시설 예약 기능 개선
+- SNS 게시물 연동 기능 개발(Facebook, Instagram)
+- 유투브 API를 이용한 온라인 강의 수강 및 출석체크 프로그램 개발
+- 공공 데이터 API 연동, 정보제공 프로그램 기능 개선
+- 보안취약점 점검 및 개선
+- 스펙
+  - Java 1.7, Spring 3.9, iBatis, mariaDB, oracle 11g, Cubrid, Tomcat 7, Apache httpd 2.4.4, Freemarker 2.3, Apache Tiles, Facebook SDK, Linux Ubuntu
 
 ### 지엠티
 
+#### 해양환경 오염방제 시스템 기능 개선 및 유지보수
 
+- 2020.05 ~ 2020.10
+- 사용자 로그인 기능 및 권한관리 기능 개선
+  - 공인인증서 로그인 방식 제거
+  - Interceptor에서 사용자 권한에 따른 접근 제어
+- 가독성 떨어지는 다중 분기처리 구문의 리펙토링
+- 파편화된 파편화된 공통로직 일원화
+- 기능에 따른 패키지 분리
+- 보안취약점 개선
+- 스펙
+  - Spring 3.5, Java 1.8, JavaScript, jQeury 1.1, Tibero, Jboss, Apache httpd
 
+#### 선박 자동식별시스템 데이터 분석을 위한 DB 설계
+
+- 2020.05
+- 전국 44개의 기지국에서 수집한 하루 평균 100 만건의 선박 위치정보의 5년치 텍스트 데이터를 분석 전 DB에 저장하기위한 설계
+- 스펙
+  - PostgreSQL
+
+#### 해양환경공단 골재채취선박 및 해양환경 관제 시스템
+
+- 2019.10 ~ 2020.04
+- 해양 지도/지리정보 API 개발
+- 지도상에서 지점/경로/영역 생성/관리
+- 폴링방식 실시간 선박위치 추적
+- 폴링방식 실시간 알림 서비스
+- 언어 및 라이브러리
+  - OpenLayers 6.0, JavaScript (ES5), Java 1.8, Spring 4.2, PostgreSQL, HandleBar.js, jQuery 3.1, GeoServer, 
+
+#### 해양 정보 메세지 크롤러 개발
+
+- 2019.10 ~ 2019.11
+- JSON 및 HTML 데이터 수집
+  - 아시아/태평양 주요 3국의 해상 정보 메세지를 스케쥴러로 수집하는 모듈 개발
+- 스펙
+  - Quartz, JSOUP, GSON, Java 1.8, Spring 4.2
+
+#### 해양산업기술 컨퍼런스 포털 개발
+
+- 2019.05 ~ 2019.09
+- 컨퍼런스 참가 등록, 결제 기능
+  - 이니페이, 페이팔 결제모듈 연결
+- 컨퍼런스 자료 게시판
+- 스펙
+  - INIPay, Paypal SDK, Apache Common-Email, CK Editor, Java 1.8, Spring 4.2, JavaScript
 
 ## 학력
 
