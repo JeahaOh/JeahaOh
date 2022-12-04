@@ -1,10 +1,10 @@
 # 오제하
 
-Java, Spring 환경의 BE 개발 경험을 가진 3년차  
-Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/유지보수 가능  
-신규 프로젝트 개발과 레거시 프로젝트 전환 그리고 개발, 설계, 기획을 포함한 경험  
-기술 중심 사고보다는 현재 상황을 파악하여 가장 필요한 개발 방법, 기술을 적용해 문제를 해결하는 것을 중요하게 생각  
-
+Java, Spring 환경의 BE 개발 경험을 가진 3년차입니다.  
+Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/유지보수 가능합니다.  
+신규 프로젝트 개발과 레거시 프로젝트 전환 그리고 개발, 설계, 기획을 포함한 경험이 있습니다.  
+기술 중심 사고보다는 현재 상황을 파악하여 가장 적절한 개발 방법, 기술을 적용해 문제를 해결하는 것을 중요하게 생각합니다.  
+  
 
 ## Contact
 
@@ -16,23 +16,29 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 ## 강점
 
 - 레거시 프로젝트의 기능개선, 유지보수 경력으로 java / spring 프로젝트에 바로 기여 가능합니다.
+- 사용자의 요구사항 파악을 위한 원활한 의사소통이 가능합니다.
 - 프로젝트의 문서화와 사용자 메뉴얼 작성을 잘 합니다.
 - 단단한 성장을 위해 지속적이고 주도적인 학습을 합니다.
-- 사용자의 요구사항 파악을 위한 원활한 의사소통이 가능합니다.
 
 ## Skills
 
 ### Main
 
 - Spring Framework
-- Java(1.7 - 1.8), javascript
+- Java(1.7 - 1.8)
+- JavaScript
 
 ### Sub / Infra
 
-- Tomcat, Apache, Nginx
-- Maven, Jenkins
-- Linux, AWS(S3, CloudWatch, CodeDeploy)
 - Oracle DB, MySQL, PostgreSQL
+- Tomcat, Apache HTTPD, Nginx
+- Linux, AWS(S3, CloudWatch, CodeDeploy)
+
+### Tools
+
+- Jira, Confluence
+- Git, GitHub
+- Maven, Jenkins, Slack
 
 ## 경력
 
@@ -67,37 +73,85 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 
 ### 한신정보기술
 
-- 2020.11 ~ 2021.08
-- 공공기관 홈페이지 유지보수 및 기능개선
-  - 하남시청
+- 2020.11.02 ~ 2021.08.19
+- 공공기관 홈페이지 Contents Management System 유지보수 및 기능개선
+  - 연천군청
   - 광명시청
+  - 하남시청
   - 부천여성청소년재단
-- 대관/교육수강/체육시설 예약 기능 개선
-- SNS 게시물 연동 기능 개발(Facebook, Instagram)
-- 유투브 API를 이용한 온라인 강의 수강 및 출석체크 프로그램 개발
-- 공공 데이터 API 연동, 정보제공 프로그램 기능 개선
-- 보안취약점 점검 및 개선
 - 스펙
   - BE : Java 1.7, Spring 3.9, iBatis, mariaDB, oracle 11g, Cubrid, Freemarker 2.3, Apache Tiles, Facebook SDK
   - FE : jQuery 1.1
   - INFRA : Tomcat 7, Apache httpd 2.4.4, Linux Ubuntu
+
+#### 부천 여성청소년 재단 강의/대관 기능 개선
+
+- 2021.05.01 ~ 2021.05.30
+- 시설대관/교육프로그램 예약 시스템 기능 개선
+- 온라인 강의 출석체크/수료증발급 기능 개발
+- SNS(Facebook, Instagram) 게시물 연동 기능 개발
+
+#### 하남시청 기능 개선 및 유지보수
+
+- 2021.01.07 ~ 2021.04.31
+- 2021.06.01 ~ 2021.08.19
+- OS상에서 WAS 프로세스가 빈번하게 다운되는 현상 개선
+  - OS shell script와 스케쥴러를 이용하여 프로세스 작동 여부 판단, 자동 재시작 기능
+  - JVM GC 튜닝으로 해결
+- 쳬육시설 등 부대시설 예약기능 개선
+- 민원 게시판 기능개선
+  - 자동화 공격 방지
+  - 도배성 게시물 방지를 위한 UX 개선
+- 보안취약점 개선
+  - Tabnabbing
+  - 서버경로 노출 취약점
+  - HTTP Content-Security-Policy 헤더 누락
+  - HTTP X-XSS-Protection 헤더 누락
+  - HTML 중요 주석 정보 노출 취약점
+  - 개인정보 (E-Mail) 유출 취약점
+  - 클라이언트측(JavaScript) 쿠키 참조
+  - 내부 네트워크 IP 정보 유출 가능 취약점
+  - 취약한 SSL/TLS 버전 사용 취약점
+  - XSS
+  - 관리자 페이지 노출
+  - 세션관리 미흡
+- 조직도 자동 생성 기능
+- 고시공고/나라장터/수의계약 API 연결
+- 날씨 API 연결
+- 모바일투표 기능 개선
+  - 투표결과 집계 및 참여자 정보 통계
+  - chart.js
+
+#### 광명시청 평생교육, 학습동아리 사이트 개편
+
+- 2020.12.01 ~ 2020.12.30
+- 강의/강사관리, 이미지 게시판, 일정 관리기능 개발
+
+#### 연천군청 온라인 관광책자 기능개발
+
+- 2020.11.02 ~ 2020.11.30
+- 관광지 상세정보 관리 및 지도 기능개발
+- 환율/날씨정보 고시
+- 공공 API, 카카오 지도 API
+
+---
 
 ### 지엠티
 
 #### 해양환경 오염방제 시스템 기능 개선 및 유지보수
 
 - 2020.05 ~ 2020.10
-- 사용자 로그인 기능 및 권한관리 기능 개선
+- 사용자 로그인 기능 및 권한관리 기능 개발
   - 공인인증서 로그인 방식 제거
   - Interceptor에서 사용자 권한에 따른 접근 제어
 - 가독성 떨어지는 다중 분기처리 구문의 리펙토링
-- 파편화된 파편화된 공통로직 일원화
-- 기능에 따른 패키지 분리
+- 파편화된 공통로직 일원화
+- 도메인에 따른 패키지 분리
 - 보안취약점 개선
 - 스펙
   - BE : Spring 3.5, Java 1.8, Tibero
   - FE : JavaScript, jQeury 1.1
-  - INFRA : Jboss, Apache httpd, Linux Ubuntu
+  - INFRA : Jboss, Apache HTTPD, Linux Ubuntu
 
 #### 선박 자동식별시스템 데이터 분석을 위한 DB 설계
 
@@ -109,7 +163,8 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 #### 해양환경공단 골재채취선박 및 해양환경 관제 시스템
 
 - 2019.10 ~ 2020.04
-- 해양 지도/지리정보 API 개발
+- FE : 해양 지도 개발 - Vanilla JavaScript Single Page Application
+- BE : 업무 시스템/지리정보 API 개발
 - 지도상에서 지점/경로/영역 생성/관리
 - 폴링방식 실시간 선박위치 추적
 - 폴링방식 실시간 알림 서비스
@@ -136,6 +191,9 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
   - BE : INIPay, Paypal SDK, Apache Common-Email, CK Editor, Java 1.8, Spring 4.2
   - FE : jQuery 1.1
   - INFRA : Linux Ubuntu
+  
+---
+  
 
 ## 학력
 
@@ -152,6 +210,12 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
   - 문과
   - 2008.03.02 ~ 2011.02.28
 
+## 교육 수료
+
+- bit camp 자바기반 웹 전문 개발 과정
+- 2018.06.26 ~ 2018.12.18
+- Java, Oracle DB, Maria DB, HTML, CSS, Javascript, jQuery, SPRING, JSP, AJAX 등
+
 ## 병역
 
 - 공익 이병 소집 해제
@@ -167,6 +231,5 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 
 ```
   구체적 수치
-  스펙 -> 백/프론트 인프라 나눠 적기
   원티드 자소서 컨설팅
 ```
