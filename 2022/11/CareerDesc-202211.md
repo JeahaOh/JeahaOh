@@ -69,16 +69,36 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 - 스펙
   - BE : Java 1.7, Spring 3.1.1, myBatis, Oracle 11g
   - FE : jQuery 1.1
-  - INFRA : AWS EC-2, AWS S3, AWS CodeDeploy, Jenkins, NginX, Tomcat 8
+  - INFRA : AWS EC-2, AWS S3, AWS CodeDeploy, AWS CloudFront, Jenkins, NginX, Tomcat 8
+
+#### 이벤트 기능 구조화
+
+#### AWS 전환
+
+- redis session
+- OS FileSystem -> S3 API
+- 정적 콘텐츠 배포의 CloudFront 전환
+
+#### 수기업무의 기능화
+
+- 월 정산
+- 마켓팅 수신용 고객 데이터 추출
+
+#### SVN -> GIT 전환
+
+#### 오프라인 매장에서 QR 코드를 통한 통합회원 가입
+
+#### 물류시스템 개선
+
+- 택배사 전환
+- CJ 풀필먼트
+
+#### 추가구성상품
 
 ### 한신정보기술
 
 - 2020.11.02 ~ 2021.08.19
 - 공공기관 홈페이지 Contents Management System 유지보수 및 기능개선
-  - 연천군청
-  - 광명시청
-  - 하남시청
-  - 부천여성청소년재단
 - 스펙
   - BE : Java 1.7, Spring 3.9, iBatis, mariaDB, oracle 11g, Cubrid, Freemarker 2.3, Apache Tiles, Facebook SDK
   - FE : jQuery 1.1
