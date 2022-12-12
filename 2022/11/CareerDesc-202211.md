@@ -90,7 +90,7 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 #### AWS 전환
 
 - 2022.01.12 ~ 2022.04.21
-- redis session
+- Redis Session Clustering 설정
 - OS File System 및 static resources의 S3 AWS CloudFront 전환
 - TMax WebToB 에서 Nginx로 WEB SERVER 전환
   - 커넥션 타임, 압축, 헤더 설정과 whitelist 방식의 back office 접근 제어 설정
