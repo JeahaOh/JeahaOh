@@ -45,7 +45,7 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 - 아이디룩
   - 이커머스 개발팀 주임
   - 2021.08.23 ~ 재직중
-  - 자사 웹 서비스 기능개선 및 유지보수
+  - 자사 쇼핑몰 웹 서비스 운영 및 기능개선
 - 한신정보기술
   - 개발 3팀 사원
   - 2020.11.02 ~ 2021.08.19 (9 개월)
@@ -63,7 +63,7 @@ Spring 개발을 가장 선호하며 FE 개발과 인프라 영역까지 개발/
 - 스펙
   - BE : Java 1.7, Spring 3.1.1, MyBatis, Oracle 11g
   - FE : jQuery 1.1
-  - INFRA : AWS (EC-2, S3, CodeDeploy, CloudFront), Jenkins, NginX, Tomcat 8
+  - INFRA : AWS(EC-2, S3, CodeDeploy, CloudFront), Jenkins, NginX, Tomcat 8
 
 #### 물류/배송 시스탬 개편
 
