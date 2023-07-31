@@ -32,9 +32,13 @@
 
 ## 교육 수료
 
+- AWS Code Series를 활용한 CI/CD 구성
+  - 2023 07 20
+  - CodeCommit, CodeBuild, CodeDeploy, CodePipeline
+  - 베스핀 글로벌
 - bit camp 자바기반 웹 전문 개발 과정
-- 2018.06.26 ~ 2018.12.18
-- Java, Oracle DB, Maria DB, HTML, CSS, Javascript, jQuery, SPRING, JSP, AJAX 등
+  - 2018.06.26 ~ 2018.12.18
+  - Java, Oracle DB, Maria DB, HTML, CSS, Javascript, jQuery, SPRING, JSP, AJAX 등
 
 ## 병역
 
