@@ -58,7 +58,7 @@
 ### 대표적인 프로젝트 세 가지를 적어 주시되, 각각의 프로젝트에서 어떤 기술을 활용하여 어떤 방식으로 개발했는지 구체적으로 설명해 주세요 (필수)
 
 - 이벤트 상품 목록 조회 성능 고도화 -> Redis
-- 대용량 데이터 처리 기능 고도화 -> Async, MyBatis BATCH, Transaction
+- 대용량 데이터 처리 기능 고도화 -> Async, MyBatis BATCH, Transaction (한번에 3000 건이면 대용량 축에도 안 듦...)
 - AWS 전환 -> S3, Cloud Front, Jenkins 배포
 
 
