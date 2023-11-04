@@ -173,7 +173,7 @@ Java Garbage Collection.md
 
 ### RESTfull 하다는 것
 
-GET, POST, POST, PUT, DELETE의 HTTP Method에 목적에 맞는 설계
+GET, POST, PUT, DELETE의 HTTP Method에 목적에 맞는 설계
 
 ### 응답 상태 코드
 
