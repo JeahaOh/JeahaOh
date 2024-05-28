@@ -17,9 +17,11 @@ https://cosmax.recruiter.co.kr/app/jobnotice/view?systemKindCode=MRS2&jobnoticeS
 ## TODO
 
 - [ ] 자기소개서/경력기술서 파일 첨부
-- [ ] 졸업증명서 파일 첨부
-- [ ] 자격증 파일 첨부
-- [ ] 지원동기 1000자 작성
+- [V] 증명서 파일 첨부
+  - [V] 졸업 파일
+  - [V] 성적 파일
+  - [V] 자격증 파일
+- [V] 지원동기 1000자 작성
   - 이 회사를 어떻게 알게 되었는지
   - 개인적인 경험
   - 이 회사에 비젼 또는 산업이 맘에 들어서
