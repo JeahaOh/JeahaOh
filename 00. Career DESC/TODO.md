@@ -54,5 +54,20 @@
   - rollbackFor
   - timeout
 - checked exception, unchecked exception
-
+- 인덱스, 조인,
+- 겟 포스트
+- 멱등성
+- 쿠키 세션 차이
+- MVC 패턴이란 
+- nosql
+- 어노테이션
+- 의존성 주입
+- 디자인 패턴
+- VCS
+  - github, gitlab PR 과 MR의 차이
+- constant type은 언제 사용하는가?
+- hotreload의 원리
+- debug, release 모드에는 어떤 차이가 있는가?
+- DI를 쓸때와 안쓸떄의 차이점?
+- clean architecture로 설명하시오
 ---
